@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sqlescapy",
-    version="1.0.0",
+    version="1.0.1",
     author="Imad ElOuajib",
     author_email="elouajib.im@gmail.com",
     description="Python module to escape SQL special characters and quotes in strings",
