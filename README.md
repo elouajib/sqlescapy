@@ -1,7 +1,11 @@
 Python module to escape SQL special characters and quotes in strings
 
+install:
+`pip install sqlescapy`
+
 Assuming `dangerous_input` is a variable coming from a user input, a bad actor can exploit it to start injecting your database.
 ```python
+from sqlescapy import sqlescape
 
 dangerous_input = "JhonWick'"
 
